@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = OreExt::VERSION
   spec.authors       = ["pinzolo"]
   spec.email         = ["pinzolo@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{This is extension of Ruby core library for me.}
+  spec.summary       = %q{My extension of Ruby core library}
+  spec.homepage      = "https://github.com/pinzolo/ore_ext"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
