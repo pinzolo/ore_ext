@@ -7,6 +7,9 @@ describe Enumerable do
       it "returns count from first while given block returns true" do
         expect([1, 2, 3, 4, 5].count_while { |i| i < 4 }).to eq 3
       end
+      it "returns count from first if all items satisfy given condition" do
+        expect([1, 2, 3, 4, 5].count_while { |i| i > 0  }).to eq 5
+      end
     end
     context "without block" do
       let(:enum) { [1, 2, 3, 4, 5].count_while }
@@ -22,6 +25,9 @@ describe Enumerable do
     context "with block" do
       it "returns count from first until given block returns true" do
         expect([1, 2, 3, 4, 5].count_until { |i| i > 4 }).to eq 4
+      end
+      it "returns count from first if no item satisfy given condition" do
+        expect([1, 2, 3, 4, 5].count_until { |i| i.nil?  }).to eq 5
       end
     end
     context "without block" do
