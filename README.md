@@ -1,5 +1,8 @@
 # OreExt
 
+[![Build Status](https://secure.travis-ci.org/pinzolo/ore_ext.png)](http://travis-ci.org/pinzolo/ore_ext)
+[![Coverage Status](https://coveralls.io/repos/pinzolo/ore_ext/badge.png)](https://coveralls.io/r/pinzolo/ore_ext)
+
 TODO: Write a gem description
 
 ## Installation
